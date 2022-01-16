@@ -38,5 +38,5 @@ class TestE2E(BaseClass):
                 break
 
         confirm_page.get_purchase().click()
-        result = wait.until(ec.text_to_be_present_in_element((By.CSS_SELECTOR, 'div.alert-success'), 'Thank you'))
+        result = wait.until(ec.text_to_be_present_in_element((By.CSS_SELECTOR, 'div.alert-success'), 'Thank yousda'))
         print(result)
